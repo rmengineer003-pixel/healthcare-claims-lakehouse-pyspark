@@ -1,0 +1,10 @@
+{
+  "bronze_claims": 2032,
+  "silver_claims": 1960,
+  "quarantined": 40,
+  "dq_failures": {
+    "billed_non_negative": 18,
+    "paid_le_billed": 18,
+    "member_exists": 22
+  }
+}
