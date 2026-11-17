@@ -1,0 +1,10 @@
+# Local run. On Databricks, point paths at ADLS (abfss://...) and set table_format: delta.
+master: "local[*]"
+landing_path: data/landing
+output_path: data/lakehouse
+table_format: parquet
+synthetic:
+  members: 200
+  providers: 30
+  claims: 2000
+  seed: 42
